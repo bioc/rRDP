@@ -73,7 +73,8 @@
 #' Classifier." R Package, Bioconductor.
 #' \doi{10.18129/B9.bioc.rRDP}.
 #'
-#' RDP classifier software: \url{https://github.com/rdpstaff/classifier}
+#' RDP classifier software: 
+#' \url{https://sourceforge.net/projects/rdp-classifier/}
 #'
 #' Qiong Wang, George M. Garrity, James M. Tiedje and James R. Cole. Naive
 #' Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New
