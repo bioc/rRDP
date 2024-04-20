@@ -53,13 +53,13 @@
 #' removeRDP
 #' @param dir directory where the classifier information is stored.
 #' @param object a RDPClassifier object.
-#' @param newdata new data to be classified as a [DNAStringSet].
+#' @param newdata new data to be classified as a [Biostrings::DNAStringSet].
 #' @param confidence numeric; minimum confidence level for classification.
 #' Results with lower confidence are replaced by NAs. Set to 0 to disable.
 #' @param rdp_args additional RDP arguments for classification (e.g.,
 #' `"-minWords 5"` to set the minimum number of words for each bootstrap trial.).
 #' See RDP documentation.
-#' @param x an object of class [DNAStringSet] with the 16S rRNA sequences for
+#' @param x an object of class [Biostrings::DNAStringSet] with the 16S rRNA sequences for
 #' training.
 #' @param rank Taxonomic rank at which the classification is learned.
 #' @param verbose logical; print additional information.

@@ -23,7 +23,7 @@ removeRDP(object)
 
 \item{object}{a RDPClassifier object.}
 
-\item{newdata}{new data to be classified as a \link{DNAStringSet}.}
+\item{newdata}{new data to be classified as a \link[Biostrings:XStringSet-class]{Biostrings::DNAStringSet}.}
 
 \item{confidence}{numeric; minimum confidence level for classification.
 Results with lower confidence are replaced by NAs. Set to 0 to disable.}
@@ -36,7 +36,7 @@ See RDP documentation.}
 
 \item{...}{additional arguments (currently unused).}
 
-\item{x}{an object of class \link{DNAStringSet} with the 16S rRNA sequences for
+\item{x}{an object of class \link[Biostrings:XStringSet-class]{Biostrings::DNAStringSet} with the 16S rRNA sequences for
 training.}
 
 \item{rank}{Taxonomic rank at which the classification is learned.}
@@ -117,7 +117,8 @@ Hahsler M, Nagar A (2020). "rRDP: Interface to the RDP
 Classifier." R Package, Bioconductor.
 \doi{10.18129/B9.bioc.rRDP}.
 
-RDP classifier software: \url{https://github.com/rdpstaff/classifier}
+RDP classifier software:
+\url{https://sourceforge.net/projects/rdp-classifier/}
 
 Qiong Wang, George M. Garrity, James M. Tiedje and James R. Cole. Naive
 Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New
